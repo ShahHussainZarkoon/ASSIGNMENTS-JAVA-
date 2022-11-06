@@ -1,0 +1,52 @@
+Name Shah Hussain Zarkoon
+Roll no 44
+Bs-IT
+Morning 
+Subject: OOPS
+
+1 class Triangle
+2 {
+3   float perpendicular, base, hyp;
+4    Triangle()
+5    {
+6        perpendicular = 3.5;
+7        base = 1.9;
+8        hypot = 2.0;
+9    }
+10    Triangle(float perp, float b, float h)
+11    {
+12        perpendicular = p;
+13        base = b;
+14        hyp=h;
+15    }
+16    float sin()
+17   {
+18        return perpendicular/hypot;
+19    }
+20    float cos()
+21    {
+22        return base/hypot;
+23    }
+24    float tan()
+25    {
+26        return perpendicular/base;
+27    }
+28 }
+
+29 class Triangle
+30 {
+31    public static void main(String[] args)
+32    {
+33        //For Default Constructor
+34        Triangle t1= new Triangle();
+35        System.out.println(" SIN = "+t1.sin());
+36        System.out.println(" COS = "+t1.cos());
+37        System.out.println(" TAN = "+t1.tan());
+38
+39        //For Second Constructor
+40        Triangle t2= new Triangle(Float 3.5, 1.9 , 2.0);
+41        System.out.println(" SIN = "+t2.sin());
+42        System.out.println(" COS = "+t2.cos());
+43        System.out.println(" TAN = "+t2.tan());
+44        } 
+45  } 
